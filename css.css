@@ -1,0 +1,43 @@
+/* menu */
+#header {margin:auto;width:500px;font-family:Arial, Helvetica, sans-serif;}
+ul, ol {list-style:none;}
+.nav > li {float:left;}
+.nav li a {background-color:#008000;color:#fff;text-decoration:none;padding:10px 12px;display:block;}
+.nav li a:hover {background-color:#57F35E}
+.nav li ul {display:none;position:absolute;min-width:140px;}
+.nav li:hover > ul {display:block;}
+.nav li ul li {position:relative;}
+.nav li ul li ul {right:-140px;top:0px;}
+/* Factura  */
+.cuerpof{background-color:#FFFFFF;position:relative; margin:0 auto; max-width:900px}
+.logo img{max-width:20%; float:left; margin-right:180px}
+.direccion{text-align:center; float:left}
+.datos-fra{float:right}
+.limpiar{clear:both}
+.cliente, .facturacion{margin-top:20px; border: 1px solid gray;border-radius: 15px}
+table{width:100%}
+tfoot{margin-top:15px}
+caption {text-align: center;width: 100%;padding: 12px;font-weight:bold; color:gray}
+.tfooter{font-size:12px}
+#pief{text-align:center}
+#enlace{text-align:center}
+/*Bienvenida*/
+#pieindex{width:100%;background-color:#E3F357;height:40px}
+#cont{widht:100%;margin:0px;padding:0;overflow:auto}
+#top{width:100%;margin:0px;padding:0;overflow:auto;background-color:#E3F357}
+#barral{color:#008000;text-align:center;border: 3px solid #008000;border-radius: 15px;background-color:white;height:500px;width: 12%;float:left;margin-left:5px}
+#bienvenida {color:#008000;text-align:center;border: 3px solid #008000;border-radius: 15px;background-color:white;height:500px;width: 74%;float:left}
+#barrald{color:#008000;text-align:center;border: 3px solid #008000;border-radius: 15px;background-color:white;height:500px;width: 11%;float:left;}
+#cuerpo{background-color:#F0F4CF;position:relative; margin:0 auto; max-width:900px;height:400px}
+#pie {color:#008000;text-align:center}
+/*contacto*/
+#cuerpoc{background-color:#F0F4CF;position:relative; margin:0 auto; max-width:900px}
+#piec {text-align:center;color:#008000}
+#textc{color:#008000}
+#textt{color:#008000;background-color:#FFFFFF}
+/*productos*/
+#cuerpop{background-color:#F0F4CF;position:relative; margin:0 auto; max-width:900px;color:#008000}
+#piep {text-align:center;color:#008000}
+#tab1{background-color:#FFFFFF}
+#tab2{background-color:#FFFFFF}
+                                                                                                                                               

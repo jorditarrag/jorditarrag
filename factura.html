@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>factura</title>
+	<link rel="stylesheet" href="css.css"> 
+</head>
+<body class="cuerpof">
+<header>
+	<div class="logo">
+		<img src="img/logo.jpg">
+	</div>
+	
+	<div class="direccion">	
+		<p><strong>Jardiland</strong><br>
+		CIF: 12345678-G<br>
+		C/ Forjadores s/n<br>
+		Isla del Hierro<br>
+		Tenerife<br>
+		España
+		</p>
+	</div>
+	<div class="datos-fra">
+		<h1>FACTURA</h1>
+		<table>
+			<tr>
+				<td>Número:</td>
+				<td><input type="text" value="1"></td>
+			</tr>
+			<tr>
+				<td>Fecha:</td>
+				<td><input type="date"></td>
+			</tr>
+		</table>
+	</div>
+</header>
+<main class="limpiar">
+	<section class="cliente">
+		<table>
+			<caption>Datos del cliente</caption>
+			<tr>
+				<td>Cliente: <input type="text" value="Ilerna" >
+				CIF: <input type="text" value="22222222A" >
+				</td>
+			</tr>
+			<tr>
+				<td>Dirección: <input type="text"value="Av. Barcelona" >
+				Provincia: <input type="text"value = "Lleida">
+				</td>
+			</tr>
+			<tr>
+				<td>País: <input type="text" value="España"></td>
+			</tr>
+		</table>
+	</section>
+	
+	<section class="facturacion">
+		<table>
+			<caption>Líneas de factura</caption>
+
+			<thead>
+			   <tr>
+				 <th scope="col" align="left">Und.</th>
+				 <th scope="col">Artículo</th>
+				 <th scope="col" align="right">Precio</th>
+				 <th scope="col" align="right">Subtotal</th>
+			   </tr>
+			</thead>
+			
+			<tfoot>
+				<tr>
+					<td></td>
+					<td></td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td align="right">Base I.</td>
+					<td align="right">50 €</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td align="right">Descuento</td>
+					<td align="right">0</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td align="right">IVA. 21%</td>
+					<td align="right">10.50 €</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td align="right">TOTAL Neto</td>
+					<td align="right">60.50 €</td>
+				</tr>
+			</tfoot>
+			
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>RRO-10 - Ramo diez Rosas rojas</td>
+					<td align="right">25 €</td>
+					<td align="right">25 €</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>RPE-05 - Ramo cinco Petunias</td>
+					<td align="right">12,50 €</td>
+					<td align="right">25 €</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+</main>
+
+<footer>
+	<form>
+		<table >
+			<caption><small>forma de pago y datos bancarios</small></caption>
+			<tbody>
+				<tr>
+					<td><input type="radio" name="tipop" value="contado"> Pago contado <input type="radio" name="tipop" value="domiciliado">  Domiciliado  <input type="radio" name="tipop" value="tageta">Targeta </td>
+					<td>Entidad <input type="text" name="entidad"></td>
+					<td>Núm. cuenta <input type="text" name="numcta"></td>
+				</tr>
+			</tbody>
+		</table>
+	
+	</form>
+	</br>
+</br>
+</br>
+</br>
+
+    	<ul id="enlace">
+    		<li><a href="index.html">Volver al inicio</a></li>
+    		
+    	</ul>
+    	<p id="pief">&copy Jardiland creado por Jordi_Tarragó_Garriga_UF1_PAC01</p>
+</footer>
+
+
+
+    
+</body>
+</html>
